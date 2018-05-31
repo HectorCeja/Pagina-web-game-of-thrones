@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	list-style: none;
+
+}
+
+aside, #info{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top; 
+	min-height: 200px;
+}
+
+
+
+aside{
+	width: 35%;
+	
+}
+
+body, html{
+	font-size: 32px;
+	background: url("../img/fondo.jpg");
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+	background-attachment: fixed;
+	text-align: center;
+
+    /*background: #1C5F81;*/
+	
+}
+
+footer{
+	background: black;
+	min-height: 150px;
+	margin: 3em 0 0 0;
+}
+
+h1{
+	color: yellow;
+	text-align: center;
+	background: green;
+	border-radius: .5em;
+	margin: 0 5em;
+}
+
+
+
+
+#creditos{
+	background: transparent;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding: 2em 0 0 0;
+	
+}
+
+#dudas-link{
+	font-size: 15px;
+	color: white;
+	background: green;
+	border-radius: .5em;
+}
+
+#enviado{
+	background: orange;
+	border-radius: 2em 0;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 10em;
+}
+
+
+#formulario{
+	color: white;
+	background: #FF0000;
+	border-radius: 1em;
+	font-size: 20px;
+	margin: 0 20em;
+	padding: 1em;
+	text-align: center;
+}
+
+#presentacion{
+	font-family: 'Chewy', cursive;
+	background: orange;
+	border-radius: 1em;
+	min-height: 300px;
+	padding: 1em;
+	margin: 1em;
+}
+#principal{
+	font-size: 20px;
+	width: 95%;
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+	border-radius: .5em;
+	margin: .5em;
+	background: transparent;
+	
+}
+
+#reinos{
+	color: #FF8000;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 49px;
+
+}
+
+#contenedor-tabla{
+	border: 1em;
+	width: 35%;
+	margin: 0 14em;
+	background: transparent;
+}
+
+#tabla, th, td, caption{
+	border: 1px solid;
+	align-content: center;
+	background: #225577;
+
+}
+
+#titulo{
+	background: transparent;
+	text-align: center;
+	border-radius: .25em;
+	padding: 0em .25em;
+	margin: 0 .7em 0 1.6em;
+	color: skyblue;
+	font-size: 50px;
+	font-family: 'Bungee Shade', cursive;
+	width: 85%;
+	vertical-align: top;
+	
+}
+
+#territorios{
+	color: white;
+	margin: 2em;
+	background-color: red;
+	border-radius: 1em;
+	padding: .5em;
+	opacity: 2.5em;
+}
+
+#titulo-sec{
+	font-size: 32px;
+	border-radius: .25em;
+	padding: 0em .25em .25em .25em;
+	margin: 1em;
+
+	vertical-align: top;
+	color: skyblue;
+	font-family: 'Bungee Shade', cursive;
+	width: 95%;
+}
+
+#video{
+	padding: .25em;
+	border-radius: .5em;
+
+}
+
+.foot{
+	vertical-align: top;
+}
+
+.foot, .redes{
+	display: inline-block;
+	width: 45%;
+	vertical-align: center;
+	margin: 1em 0;
+	
+}
+
+.redes{
+	width: 45%;
+}
+
+.contenedor{
+	/*font-size: 0;*/
+	
+	margin: .5em;
+	width: 98%;
+	background: transparent;
+	vertical-align: top;
+}
+.dudas-titulo{
+	font-family: 'Chewy', cursive;
+	color: orange;
+	margin: 0 0 2em 0;
+}
+.inforeino, .imagenreino{
+	display: inline-block;
+	width: 55%;
+	padding: .25em;
+	vertical-align: top; 
+	min-height: 50px;
+	text-align: center;
+	background: skyblue;
+	border-radius: .5em;
+}
+
+.inforeino{
+	width: 35%;
+	color: blue;
+	background: yellow ;
+	border-radius: .5em;
+
+}
+.menu{
+	background: gray;
+	text-align: center;
+	color: white;
+	border-radius: .5em;
+	padding: .25em;
+	margin: .25em;
+	vertical-align: center;
+	display: inline-block;
+	height: 40px;
+	width: 15%;
+    font-family: 'Anton', sans-serif;
+
+}
+.menu-enviado:hover{
+	font-size: 110%;
+	color: white;
+	vertical-align: top;
+}
+.menu:hover{
+	font-size: 110%;
+	color: white;
+	
+}
